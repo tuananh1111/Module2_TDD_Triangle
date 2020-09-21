@@ -1,5 +1,5 @@
 public class TriangleClassifier {
-    public static String isTriangle(int numberA, int numberB, int numberC){
+    public static String findTriangle(int numberA, int numberB, int numberC){
         if (numberA==numberB&&numberA==numberC){
             return "Tam giác đều";
         }else if (numberA==numberB ||numberA==numberC||numberC==numberB){
